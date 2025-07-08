@@ -117,22 +117,6 @@ class YahooFinanceService {
     return this.getMockCryptoData(symbol);
   }
 
-  private async fetchCryptoDataOriginal(symbol: string): Promise<any> {
-    try {
-      const response = await fetch(`${YAHOO_FINANCE_BASE}/${symbol}`, {
-        params: {
-          interval: '1d',
-          range: '7d'
-        }
-      });
-      
-      return response.json().then(data => data.chart.result[0]);
-    } catch (error) {
-      console.error(`Error fetching data for ${symbol}:`, error);
-      return null;
-    }
-  }
-
   private calculateTechnicalIndicators(prices: number[]): any {
     if (prices.length < 50) {
       return {

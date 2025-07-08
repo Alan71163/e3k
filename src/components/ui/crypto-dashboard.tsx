@@ -1,12 +1,11 @@
 "use client"
 
 import React, { useState, useEffect, useMemo } from 'react'
-import { Search, TrendingUp, TrendingDown, Bot, Send, Star, Filter, RefreshCw, DollarSign, BarChart3, Zap, MessageCircle, ArrowLeft, Loader2 } from 'lucide-react'
+import { Search, TrendingUp, TrendingDown, Bot, Send, RefreshCw, BarChart3, Zap, ArrowLeft, Loader2 } from 'lucide-react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
 import { Button } from '@/components/ui/button'
 import { Badge } from '@/components/ui/badge'
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select'

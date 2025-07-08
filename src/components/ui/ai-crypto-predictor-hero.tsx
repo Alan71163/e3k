@@ -327,7 +327,6 @@ const AICryptoPredictorHero: React.FC<AICryptoPredictorHeroProps> = ({ onNavigat
                 variant="outline"
                 size="lg"
                 onClick={handleViewTrackRecord}
-                onClick={onNavigateToDashboard}
                 className="px-8 py-4 text-lg font-semibold rounded-xl border-border/50 hover:bg-accent/50 transition-all duration-300"
               >
                 <Shield className="w-5 h-5 mr-2" />
@@ -443,7 +442,6 @@ const AICryptoPredictorHero: React.FC<AICryptoPredictorHeroProps> = ({ onNavigat
               <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                 <Button
                   size="lg"
-                  onClick={onNavigateToDashboard}
                   onClick={onNavigateToDashboard}
                   className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 text-lg font-semibold rounded-xl shadow-lg hover:shadow-xl transition-all duration-300"
                 >

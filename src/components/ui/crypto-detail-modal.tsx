@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { X, TrendingUp, TrendingDown, Bot, Send, BarChart3, DollarSign, Activity, AlertTriangle, CheckCircle, Clock } from 'lucide-react';
+import { TrendingUp, TrendingDown, Bot, Send, Activity, AlertTriangle, CheckCircle, Clock } from 'lucide-react';
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from '@/components/ui/dialog';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
